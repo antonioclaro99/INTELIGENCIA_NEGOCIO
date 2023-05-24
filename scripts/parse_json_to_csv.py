@@ -15,7 +15,8 @@ for filename in os.listdir(directory):
     json_file = os.path.join(directory, filename)
     # checking if it is a file
     if os.path.isfile(json_file):
-        with open(json_file, 'r') as f:
+        with open(json_file, 'r',encoding='latin-1') as f:
+            #print(json_file)
             fixture_json = json.load(f)
             df_fixture = pd.read_csv("./data/matches_csv/matches_template.csv",sep=";")
             #print(fixture_json)

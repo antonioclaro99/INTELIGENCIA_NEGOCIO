@@ -1,1 +1,622 @@
-{"get": "fixtures", "parameters": {"id": "205354"}, "errors": [], "results": 1, "paging": {"current": 1, "total": 1}, "response": [{"fixture": {"id": 205354, "referee": null, "timezone": "UTC", "date": "2010-12-04T17:00:00+00:00", "timestamp": 1291482000, "periods": {"first": 1291482000, "second": 1291485600}, "venue": {"id": null, "name": "Estadio Ciudad de Valencia (Valencia)", "city": null}, "status": {"long": "Match Finished", "short": "FT", "elapsed": 90}}, "league": {"id": 140, "name": "La Liga", "country": "Spain", "logo": "https://media-2.api-sports.io/football/leagues/140.png", "flag": "https://media-1.api-sports.io/flags/es.svg", "season": 2010, "round": "Regular Season - 14"}, "teams": {"home": {"id": 539, "name": "Levante", "logo": "https://media-3.api-sports.io/football/teams/539.png", "winner": true}, "away": {"id": 530, "name": "Atletico Madrid", "logo": "https://media-1.api-sports.io/football/teams/530.png", "winner": false}}, "goals": {"home": 2, "away": 0}, "score": {"halftime": {"home": 1, "away": 0}, "fulltime": {"home": 2, "away": 0}, "extratime": {"home": null, "away": null}, "penalty": {"home": null, "away": null}}, "events": [{"time": {"elapsed": 3, "extra": null}, "team": {"id": 539, "name": "Levante", "logo": "https://media-1.api-sports.io/football/teams/539.png"}, "player": {"id": 117009, "name": "Nano"}, "assist": {"id": 46981, "name": "Xavi Torres"}, "type": "Goal", "detail": "Normal Goal", "comments": null}, {"time": {"elapsed": 32, "extra": null}, "team": {"id": 530, "name": "Atletico Madrid", "logo": "https://media-3.api-sports.io/football/teams/530.png"}, "player": {"id": 114681, "name": "Paulo Assunção"}, "assist": {"id": 47550, "name": "Mario Suárez"}, "type": "subst", "detail": "Substitution 1", "comments": null}, {"time": {"elapsed": 59, "extra": null}, "team": {"id": 539, "name": "Levante", "logo": "https://media-3.api-sports.io/football/teams/539.png"}, "player": {"id": 1861, "name": "F. Caicedo"}, "assist": {"id": 116927, "name": "Juanlu"}, "type": "Goal", "detail": "Normal Goal", "comments": null}, {"time": {"elapsed": 71, "extra": null}, "team": {"id": 539, "name": "Levante", "logo": "https://media-1.api-sports.io/football/teams/539.png"}, "player": {"id": 117080, "name": "Xisco Nadal"}, "assist": {"id": 117120, "name": "Larrea"}, "type": "subst", "detail": "Substitution 1", "comments": null}, {"time": {"elapsed": 76, "extra": null}, "team": {"id": 539, "name": "Levante", "logo": "https://media-1.api-sports.io/football/teams/539.png"}, "player": {"id": 1861, "name": "F. Caicedo"}, "assist": {"id": 117026, "name": "Rafa Jordá"}, "type": "subst", "detail": "Substitution 2", "comments": null}, {"time": {"elapsed": 80, "extra": null}, "team": {"id": 530, "name": "Atletico Madrid", "logo": "https://media-1.api-sports.io/football/teams/530.png"}, "player": {"id": 116873, "name": "Simão"}, "assist": {"id": 54, "name": "Diego Costa"}, "type": "subst", "detail": "Substitution 2", "comments": null}, {"time": {"elapsed": 83, "extra": null}, "team": {"id": 539, "name": "Levante", "logo": "https://media-2.api-sports.io/football/teams/539.png"}, "player": {"id": 116893, "name": "Rubén Suárez"}, "assist": {"id": 117106, "name": "Robusté"}, "type": "subst", "detail": "Substitution 3", "comments": null}, {"time": {"elapsed": 83, "extra": null}, "team": {"id": 530, "name": "Atletico Madrid", "logo": "https://media-3.api-sports.io/football/teams/530.png"}, "player": {"id": 32, "name": "D. Godín"}, "assist": {"id": 46661, "name": "Fran Mérida"}, "type": "subst", "detail": "Substitution 3", "comments": null}], "lineups": [{"team": {"id": 539, "name": "Levante", "logo": "https://media-3.api-sports.io/football/teams/539.png", "colors": null}, "startXI": [{"player": {"id": 46729, "name": "Manolo Reina", "number": 1, "pos": null, "grid": null}}, {"player": {"id": 117011, "name": "Javi Venta", "number": 17, "pos": null, "grid": null}}, {"player": {"id": 117009, "name": "Nano", "number": 3, "pos": null, "grid": null}}, {"player": {"id": 116819, "name": "Juanfran", "number": 12, "pos": null, "grid": null}}, {"player": {"id": 116949, "name": "Ballesteros", "number": 18, "pos": null, "grid": null}}, {"player": {"id": 116927, "name": "Juanlu", "number": 20, "pos": null, "grid": null}}, {"player": {"id": 91829, "name": "Pallardó", "number": 6, "pos": null, "grid": null}}, {"player": {"id": 46981, "name": "Xavi Torres", "number": 14, "pos": null, "grid": null}}, {"player": {"id": 117080, "name": "Xisco Nadal", "number": 7, "pos": null, "grid": null}}, {"player": {"id": 1861, "name": "F. Caicedo", "number": 25, "pos": null, "grid": null}}, {"player": {"id": 116893, "name": "Rubén Suárez", "number": 21, "pos": null, "grid": null}}], "substitutes": [{"player": {"id": 117120, "name": "Larrea", "number": 8, "pos": null, "grid": null}}, {"player": {"id": 117026, "name": "Rafa Jordá", "number": 9, "pos": null, "grid": null}}, {"player": {"id": 117106, "name": "Robusté", "number": 5, "pos": null, "grid": null}}, {"player": {"id": 117014, "name": "Del Horno", "number": 15, "pos": null, "grid": null}}, {"player": {"id": 115237, "name": "G. Munúa", "number": 13, "pos": null, "grid": null}}, {"player": {"id": 108627, "name": "Higón", "number": 30, "pos": null, "grid": null}}, {"player": {"id": 2617, "name": "C. Stuani", "number": 22, "pos": null, "grid": null}}], "coach": {"id": null, "name": null}, "formation": null}, {"team": {"id": 530, "name": "Atletico Madrid", "logo": "https://media-1.api-sports.io/football/teams/530.png", "colors": null}, "startXI": [{"player": {"id": 882, "name": "De Gea", "number": 13, "pos": null, "grid": null}}, {"player": {"id": 117111, "name": "T. Ujfalusi", "number": 17, "pos": null, "grid": null}}, {"player": {"id": 116956, "name": "Antonio López", "number": 3, "pos": null, "grid": null}}, {"player": {"id": 117025, "name": "L. Perea", "number": 21, "pos": null, "grid": null}}, {"player": {"id": 32, "name": "D. Godín", "number": 15, "pos": null, "grid": null}}, {"player": {"id": 47034, "name": "José Antonio Reyes", "number": 19, "pos": null, "grid": null}}, {"player": {"id": 116873, "name": "Simão", "number": 20, "pos": null, "grid": null}}, {"player": {"id": 47282, "name": "Raúl García", "number": 8, "pos": null, "grid": null}}, {"player": {"id": 114681, "name": "Paulo Assunção", "number": 12, "pos": null, "grid": null}}, {"player": {"id": 642, "name": "S. Agüero", "number": 10, "pos": null, "grid": null}}, {"player": {"id": 110391, "name": "D. Forlán", "number": 7, "pos": null, "grid": null}}], "substitutes": [{"player": {"id": 47550, "name": "Mario Suárez", "number": 4, "pos": null, "grid": null}}, {"player": {"id": 54, "name": "Diego Costa", "number": 22, "pos": null, "grid": null}}, {"player": {"id": 46661, "name": "Fran Mérida", "number": 11, "pos": null, "grid": null}}, {"player": {"id": 114915, "name": "Álvaro Domínguez", "number": 18, "pos": null, "grid": null}}, {"player": {"id": 34, "name": "Filipe Luis", "number": 14, "pos": null, "grid": null}}, {"player": {"id": 1558, "name": "Joel", "number": 27, "pos": null, "grid": null}}, {"player": {"id": 116842, "name": "Juan Valera", "number": 2, "pos": null, "grid": null}}], "coach": {"id": null, "name": null}, "formation": null}], "statistics": [], "players": []}]}
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "205354"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 205354,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2010-12-04T17:00:00+00:00",
+                "timestamp": 1291482000,
+                "periods": {
+                    "first": 1291482000,
+                    "second": 1291485600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Ciudad de Valencia (Valencia)",
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 140,
+                "name": "La Liga",
+                "country": "Spain",
+                "logo": "https://media-2.api-sports.io/football/leagues/140.png",
+                "flag": "https://media-1.api-sports.io/flags/es.svg",
+                "season": 2010,
+                "round": "Regular Season - 14"
+            },
+            "teams": {
+                "home": {
+                    "id": 539,
+                    "name": "Levante",
+                    "logo": "https://media-3.api-sports.io/football/teams/539.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 530,
+                    "name": "Atletico Madrid",
+                    "logo": "https://media-1.api-sports.io/football/teams/530.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 539,
+                        "name": "Levante",
+                        "logo": "https://media-1.api-sports.io/football/teams/539.png"
+                    },
+                    "player": {
+                        "id": 117009,
+                        "name": "Nano"
+                    },
+                    "assist": {
+                        "id": 46981,
+                        "name": "Xavi Torres"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 530,
+                        "name": "Atletico Madrid",
+                        "logo": "https://media-3.api-sports.io/football/teams/530.png"
+                    },
+                    "player": {
+                        "id": 114681,
+                        "name": "Paulo Assuno"
+                    },
+                    "assist": {
+                        "id": 47550,
+                        "name": "Mario Surez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 539,
+                        "name": "Levante",
+                        "logo": "https://media-3.api-sports.io/football/teams/539.png"
+                    },
+                    "player": {
+                        "id": 1861,
+                        "name": "F. Caicedo"
+                    },
+                    "assist": {
+                        "id": 116927,
+                        "name": "Juanlu"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 539,
+                        "name": "Levante",
+                        "logo": "https://media-1.api-sports.io/football/teams/539.png"
+                    },
+                    "player": {
+                        "id": 117080,
+                        "name": "Xisco Nadal"
+                    },
+                    "assist": {
+                        "id": 117120,
+                        "name": "Larrea"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 539,
+                        "name": "Levante",
+                        "logo": "https://media-1.api-sports.io/football/teams/539.png"
+                    },
+                    "player": {
+                        "id": 1861,
+                        "name": "F. Caicedo"
+                    },
+                    "assist": {
+                        "id": 117026,
+                        "name": "Rafa Jord"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 530,
+                        "name": "Atletico Madrid",
+                        "logo": "https://media-1.api-sports.io/football/teams/530.png"
+                    },
+                    "player": {
+                        "id": 116873,
+                        "name": "Simo"
+                    },
+                    "assist": {
+                        "id": 54,
+                        "name": "Diego Costa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 539,
+                        "name": "Levante",
+                        "logo": "https://media-2.api-sports.io/football/teams/539.png"
+                    },
+                    "player": {
+                        "id": 116893,
+                        "name": "Rubn Surez"
+                    },
+                    "assist": {
+                        "id": 117106,
+                        "name": "Robust"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 530,
+                        "name": "Atletico Madrid",
+                        "logo": "https://media-3.api-sports.io/football/teams/530.png"
+                    },
+                    "player": {
+                        "id": 32,
+                        "name": "D. Godn"
+                    },
+                    "assist": {
+                        "id": 46661,
+                        "name": "Fran Mrida"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 539,
+                        "name": "Levante",
+                        "logo": "https://media-3.api-sports.io/football/teams/539.png",
+                        "colors": null
+                    },
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 46729,
+                                "name": "Manolo Reina",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117011,
+                                "name": "Javi Venta",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117009,
+                                "name": "Nano",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116819,
+                                "name": "Juanfran",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116949,
+                                "name": "Ballesteros",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116927,
+                                "name": "Juanlu",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91829,
+                                "name": "Pallard",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46981,
+                                "name": "Xavi Torres",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117080,
+                                "name": "Xisco Nadal",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1861,
+                                "name": "F. Caicedo",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116893,
+                                "name": "Rubn Surez",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 117120,
+                                "name": "Larrea",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117026,
+                                "name": "Rafa Jord",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117106,
+                                "name": "Robust",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117014,
+                                "name": "Del Horno",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 115237,
+                                "name": "G. Muna",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 108627,
+                                "name": "Hign",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2617,
+                                "name": "C. Stuani",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": null,
+                        "name": null
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 530,
+                        "name": "Atletico Madrid",
+                        "logo": "https://media-1.api-sports.io/football/teams/530.png",
+                        "colors": null
+                    },
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 882,
+                                "name": "De Gea",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117111,
+                                "name": "T. Ujfalusi",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116956,
+                                "name": "Antonio Lpez",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117025,
+                                "name": "L. Perea",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 32,
+                                "name": "D. Godn",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47034,
+                                "name": "Jos Antonio Reyes",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116873,
+                                "name": "Simo",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47282,
+                                "name": "Ral Garca",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 114681,
+                                "name": "Paulo Assuno",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 642,
+                                "name": "S. Agero",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 110391,
+                                "name": "D. Forln",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 47550,
+                                "name": "Mario Surez",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 54,
+                                "name": "Diego Costa",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46661,
+                                "name": "Fran Mrida",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 114915,
+                                "name": "lvaro Domnguez",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 34,
+                                "name": "Filipe Luis",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1558,
+                                "name": "Joel",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116842,
+                                "name": "Juan Valera",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": null,
+                        "name": null
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

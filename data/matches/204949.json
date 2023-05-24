@@ -1,1 +1,600 @@
-{"get": "fixtures", "parameters": {"id": "204949"}, "errors": [], "results": 1, "paging": {"current": 1, "total": 1}, "response": [{"fixture": {"id": 204949, "referee": null, "timezone": "UTC", "date": "2011-10-26T18:00:00+00:00", "timestamp": 1319652000, "periods": {"first": 1319652000, "second": 1319655600}, "venue": {"id": null, "name": "Estadio de la Romareda (Zaragoza)", "city": null}, "status": {"long": "Match Finished", "short": "FT", "elapsed": 90}}, "league": {"id": 140, "name": "La Liga", "country": "Spain", "logo": "https://media-1.api-sports.io/football/leagues/140.png", "flag": "https://media-3.api-sports.io/flags/es.svg", "season": 2011, "round": "Regular Season - 10"}, "teams": {"home": {"id": 732, "name": "Zaragoza", "logo": "https://media-1.api-sports.io/football/teams/732.png", "winner": false}, "away": {"id": 532, "name": "Valencia", "logo": "https://media-1.api-sports.io/football/teams/532.png", "winner": true}}, "goals": {"home": 0, "away": 1}, "score": {"halftime": {"home": 0, "away": 0}, "fulltime": {"home": 0, "away": 1}, "extratime": {"home": null, "away": null}, "penalty": {"home": null, "away": null}}, "events": [{"time": {"elapsed": 46, "extra": null}, "team": {"id": 532, "name": "Valencia", "logo": "https://media-3.api-sports.io/football/teams/532.png"}, "player": {"id": 928, "name": "Dani Parejo"}, "assist": {"id": 1480, "name": "J. Mathieu"}, "type": "subst", "detail": "Substitution 1", "comments": null}, {"time": {"elapsed": 57, "extra": null}, "team": {"id": 732, "name": "Zaragoza", "logo": "https://media-1.api-sports.io/football/teams/732.png"}, "player": {"id": 41392, "name": "Ruben"}, "assist": {"id": 116818, "name": "Lafita"}, "type": "subst", "detail": "Substitution 1", "comments": null}, {"time": {"elapsed": 61, "extra": null}, "team": {"id": 532, "name": "Valencia", "logo": "https://media-3.api-sports.io/football/teams/532.png"}, "player": {"id": 47340, "name": "P. Piatti"}, "assist": {"id": 580, "name": "Jonas"}, "type": "subst", "detail": "Substitution 2", "comments": null}, {"time": {"elapsed": 62, "extra": null}, "team": {"id": 732, "name": "Zaragoza", "logo": "https://media-2.api-sports.io/football/teams/732.png"}, "player": {"id": 35926, "name": "P. Barrera"}, "assist": {"id": 46819, "name": "Juan Carlos"}, "type": "subst", "detail": "Substitution 2", "comments": null}, {"time": {"elapsed": 76, "extra": null}, "team": {"id": 732, "name": "Zaragoza", "logo": "https://media-3.api-sports.io/football/teams/732.png"}, "player": {"id": 115228, "name": "Hélder Postiga"}, "assist": {"id": 116955, "name": "Jorge Ortí"}, "type": "subst", "detail": "Substitution 3", "comments": null}, {"time": {"elapsed": 82, "extra": null}, "team": {"id": 532, "name": "Valencia", "logo": "https://media-2.api-sports.io/football/teams/532.png"}, "player": {"id": 128, "name": "Jordi Alba"}, "assist": {"id": 18966, "name": "Bruno"}, "type": "Goal", "detail": "Normal Goal", "comments": null}, {"time": {"elapsed": 83, "extra": null}, "team": {"id": 532, "name": "Valencia", "logo": "https://media-1.api-sports.io/football/teams/532.png"}, "player": {"id": 1375, "name": "Soldado"}, "assist": {"id": 47290, "name": "Aduriz"}, "type": "subst", "detail": "Substitution 3", "comments": null}], "lineups": [{"team": {"id": 732, "name": "Zaragoza", "logo": "https://media-2.api-sports.io/football/teams/732.png", "colors": null}, "startXI": [{"player": {"id": 47326, "name": "Roberto Jiménez", "number": 1, "pos": null, "grid": null}}, {"player": {"id": 117005, "name": "Fernando Meira", "number": 6, "pos": null, "grid": null}}, {"player": {"id": 70725, "name": "P. da Silva", "number": 14, "pos": null, "grid": null}}, {"player": {"id": 116947, "name": "Paredes", "number": 3, "pos": null, "grid": null}}, {"player": {"id": 105452, "name": "Mateos", "number": 4, "pos": null, "grid": null}}, {"player": {"id": 6004, "name": "L. Ponzio", "number": 23, "pos": null, "grid": null}}, {"player": {"id": 35926, "name": "P. Barrera", "number": 16, "pos": null, "grid": null}}, {"player": {"id": 39108, "name": "E. Juárez", "number": 2, "pos": null, "grid": null}}, {"player": {"id": 41392, "name": "Ruben", "number": 18, "pos": null, "grid": null}}, {"player": {"id": 115228, "name": "Hélder Postiga", "number": 9, "pos": null, "grid": null}}, {"player": {"id": 8652, "name": "Luis García", "number": 10, "pos": null, "grid": null}}], "substitutes": [{"player": {"id": 116818, "name": "Lafita", "number": 17, "pos": null, "grid": null}}, {"player": {"id": 46819, "name": "Juan Carlos", "number": 11, "pos": null, "grid": null}}, {"player": {"id": 116955, "name": "Jorge Ortí", "number": 26, "pos": null, "grid": null}}, {"player": {"id": 116962, "name": "M. Lanzaro", "number": 5, "pos": null, "grid": null}}, {"player": {"id": 105048, "name": "Eduardo Oriol", "number": 8, "pos": null, "grid": null}}, {"player": {"id": 6656, "name": "F. Zuculini", "number": 20, "pos": null, "grid": null}}, {"player": {"id": 113988, "name": "L. Franco", "number": 25, "pos": null, "grid": null}}], "coach": {"id": null, "name": null}, "formation": null}, {"team": {"id": 532, "name": "Valencia", "logo": "https://media-2.api-sports.io/football/teams/532.png", "colors": null}, "startXI": [{"player": {"id": 18835, "name": "Guaita", "number": 13, "pos": null, "grid": null}}, {"player": {"id": 18966, "name": "Bruno", "number": 2, "pos": null, "grid": null}}, {"player": {"id": 105073, "name": "Dealbert", "number": 15, "pos": null, "grid": null}}, {"player": {"id": 128, "name": "Jordi Alba", "number": 17, "pos": null, "grid": null}}, {"player": {"id": 1693, "name": "Víctor Ruíz", "number": 18, "pos": null, "grid": null}}, {"player": {"id": 1366, "name": "M. Topal", "number": 5, "pos": null, "grid": null}}, {"player": {"id": 2050, "name": "É. Banega", "number": 10, "pos": null, "grid": null}}, {"player": {"id": 447, "name": "S. Feghouli", "number": 8, "pos": null, "grid": null}}, {"player": {"id": 928, "name": "Dani Parejo", "number": 21, "pos": null, "grid": null}}, {"player": {"id": 1375, "name": "Soldado", "number": 9, "pos": null, "grid": null}}, {"player": {"id": 47340, "name": "P. Piatti", "number": 14, "pos": null, "grid": null}}], "substitutes": [{"player": {"id": 1480, "name": "J. Mathieu", "number": 22, "pos": null, "grid": null}}, {"player": {"id": 580, "name": "Jonas", "number": 7, "pos": null, "grid": null}}, {"player": {"id": 47290, "name": "Aduriz", "number": 11, "pos": null, "grid": null}}, {"player": {"id": 10151, "name": "Diego Alves", "number": 1, "pos": null, "grid": null}}, {"player": {"id": 116929, "name": "Albelda", "number": 6, "pos": null, "grid": null}}, {"player": {"id": 1560, "name": "Barragán", "number": 12, "pos": null, "grid": null}}, {"player": {"id": 6682, "name": "A. Costa", "number": 24, "pos": null, "grid": null}}], "coach": {"id": null, "name": null}, "formation": null}], "statistics": [], "players": []}]}
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "204949"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 204949,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2011-10-26T18:00:00+00:00",
+                "timestamp": 1319652000,
+                "periods": {
+                    "first": 1319652000,
+                    "second": 1319655600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio de la Romareda (Zaragoza)",
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 140,
+                "name": "La Liga",
+                "country": "Spain",
+                "logo": "https://media-1.api-sports.io/football/leagues/140.png",
+                "flag": "https://media-3.api-sports.io/flags/es.svg",
+                "season": 2011,
+                "round": "Regular Season - 10"
+            },
+            "teams": {
+                "home": {
+                    "id": 732,
+                    "name": "Zaragoza",
+                    "logo": "https://media-1.api-sports.io/football/teams/732.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 532,
+                    "name": "Valencia",
+                    "logo": "https://media-1.api-sports.io/football/teams/532.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 532,
+                        "name": "Valencia",
+                        "logo": "https://media-3.api-sports.io/football/teams/532.png"
+                    },
+                    "player": {
+                        "id": 928,
+                        "name": "Dani Parejo"
+                    },
+                    "assist": {
+                        "id": 1480,
+                        "name": "J. Mathieu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media-1.api-sports.io/football/teams/732.png"
+                    },
+                    "player": {
+                        "id": 41392,
+                        "name": "Ruben"
+                    },
+                    "assist": {
+                        "id": 116818,
+                        "name": "Lafita"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 532,
+                        "name": "Valencia",
+                        "logo": "https://media-3.api-sports.io/football/teams/532.png"
+                    },
+                    "player": {
+                        "id": 47340,
+                        "name": "P. Piatti"
+                    },
+                    "assist": {
+                        "id": 580,
+                        "name": "Jonas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media-2.api-sports.io/football/teams/732.png"
+                    },
+                    "player": {
+                        "id": 35926,
+                        "name": "P. Barrera"
+                    },
+                    "assist": {
+                        "id": 46819,
+                        "name": "Juan Carlos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media-3.api-sports.io/football/teams/732.png"
+                    },
+                    "player": {
+                        "id": 115228,
+                        "name": "Hlder Postiga"
+                    },
+                    "assist": {
+                        "id": 116955,
+                        "name": "Jorge Ort"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 532,
+                        "name": "Valencia",
+                        "logo": "https://media-2.api-sports.io/football/teams/532.png"
+                    },
+                    "player": {
+                        "id": 128,
+                        "name": "Jordi Alba"
+                    },
+                    "assist": {
+                        "id": 18966,
+                        "name": "Bruno"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 532,
+                        "name": "Valencia",
+                        "logo": "https://media-1.api-sports.io/football/teams/532.png"
+                    },
+                    "player": {
+                        "id": 1375,
+                        "name": "Soldado"
+                    },
+                    "assist": {
+                        "id": 47290,
+                        "name": "Aduriz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media-2.api-sports.io/football/teams/732.png",
+                        "colors": null
+                    },
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 47326,
+                                "name": "Roberto Jimnez",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117005,
+                                "name": "Fernando Meira",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70725,
+                                "name": "P. da Silva",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116947,
+                                "name": "Paredes",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105452,
+                                "name": "Mateos",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6004,
+                                "name": "L. Ponzio",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35926,
+                                "name": "P. Barrera",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39108,
+                                "name": "E. Jurez",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41392,
+                                "name": "Ruben",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 115228,
+                                "name": "Hlder Postiga",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8652,
+                                "name": "Luis Garca",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 116818,
+                                "name": "Lafita",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46819,
+                                "name": "Juan Carlos",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116955,
+                                "name": "Jorge Ort",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116962,
+                                "name": "M. Lanzaro",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105048,
+                                "name": "Eduardo Oriol",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6656,
+                                "name": "F. Zuculini",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 113988,
+                                "name": "L. Franco",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": null,
+                        "name": null
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 532,
+                        "name": "Valencia",
+                        "logo": "https://media-2.api-sports.io/football/teams/532.png",
+                        "colors": null
+                    },
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 18835,
+                                "name": "Guaita",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18966,
+                                "name": "Bruno",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105073,
+                                "name": "Dealbert",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128,
+                                "name": "Jordi Alba",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1693,
+                                "name": "Vctor Ruz",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1366,
+                                "name": "M. Topal",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2050,
+                                "name": ". Banega",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 447,
+                                "name": "S. Feghouli",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 928,
+                                "name": "Dani Parejo",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1375,
+                                "name": "Soldado",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47340,
+                                "name": "P. Piatti",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 1480,
+                                "name": "J. Mathieu",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 580,
+                                "name": "Jonas",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47290,
+                                "name": "Aduriz",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10151,
+                                "name": "Diego Alves",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116929,
+                                "name": "Albelda",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1560,
+                                "name": "Barragn",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6682,
+                                "name": "A. Costa",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": null,
+                        "name": null
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}
