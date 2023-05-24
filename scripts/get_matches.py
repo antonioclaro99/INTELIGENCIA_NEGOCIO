@@ -48,8 +48,8 @@ carpeta = "./data/matches/"
 
 for api_key in api_keys:
     headers = {
-        'x-rapidapi-host': "v3.football.api-sports.io",
-        'x-apisports-key': api_key
+        'x-apisports-key': api_key,
+        'x-rapidapi-host': "v3.football.api-sports.io"        
         }
     
     obtenidos = obtener_ids_desde_carpeta(carpeta).copy()
@@ -71,7 +71,7 @@ for api_key in api_keys:
  
     for i,id in enumerate(resultado):
         
-        if i > 85:
+        if i > 90:
             print("quota limit close, breaking for next api")
             break
         
