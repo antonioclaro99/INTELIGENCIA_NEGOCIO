@@ -1,0 +1,666 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "205257"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 205257,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2010-09-18T18:00:00+00:00",
+                "timestamp": 1284832800,
+                "periods": {
+                    "first": 1284832800,
+                    "second": 1284836400
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Municipal El Molinón (Gijón)",
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 140,
+                "name": "La Liga",
+                "country": "Spain",
+                "logo": "https://media-2.api-sports.io/football/leagues/140.png",
+                "flag": "https://media-3.api-sports.io/flags/es.svg",
+                "season": 2010,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 731,
+                    "name": "Sporting Gijon",
+                    "logo": "https://media-3.api-sports.io/football/teams/731.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 531,
+                    "name": "Athletic Club",
+                    "logo": "https://media-1.api-sports.io/football/teams/531.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 731,
+                        "name": "Sporting Gijon",
+                        "logo": "https://media-3.api-sports.io/football/teams/731.png"
+                    },
+                    "player": {
+                        "id": 47201,
+                        "name": "De las Cuevas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 731,
+                        "name": "Sporting Gijon",
+                        "logo": "https://media-2.api-sports.io/football/teams/731.png"
+                    },
+                    "player": {
+                        "id": 58456,
+                        "name": "G. Sangoy"
+                    },
+                    "assist": {
+                        "id": 116881,
+                        "name": "Rivera"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 531,
+                        "name": "Athletic Club",
+                        "logo": "https://media-3.api-sports.io/football/teams/531.png"
+                    },
+                    "player": {
+                        "id": 116823,
+                        "name": "Gurpegi"
+                    },
+                    "assist": {
+                        "id": 105005,
+                        "name": "Igor Martínez"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 531,
+                        "name": "Athletic Club",
+                        "logo": "https://media-3.api-sports.io/football/teams/531.png"
+                    },
+                    "player": {
+                        "id": 117000,
+                        "name": "Gabilondo"
+                    },
+                    "assist": {
+                        "id": 47289,
+                        "name": "Susaeta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 531,
+                        "name": "Athletic Club",
+                        "logo": "https://media-3.api-sports.io/football/teams/531.png"
+                    },
+                    "player": {
+                        "id": 185,
+                        "name": "Llorente"
+                    },
+                    "assist": {
+                        "id": 117033,
+                        "name": "Orbaiz"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 731,
+                        "name": "Sporting Gijon",
+                        "logo": "https://media-3.api-sports.io/football/teams/731.png"
+                    },
+                    "player": {
+                        "id": 58456,
+                        "name": "G. Sangoy"
+                    },
+                    "assist": {
+                        "id": 91701,
+                        "name": "David Barral"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 531,
+                        "name": "Athletic Club",
+                        "logo": "https://media-1.api-sports.io/football/teams/531.png"
+                    },
+                    "player": {
+                        "id": 514,
+                        "name": "Javi Martínez"
+                    },
+                    "assist": {
+                        "id": 117117,
+                        "name": "Ion Velez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 731,
+                        "name": "Sporting Gijon",
+                        "logo": "https://media-1.api-sports.io/football/teams/731.png"
+                    },
+                    "player": {
+                        "id": 116994,
+                        "name": "Nacho Novo"
+                    },
+                    "assist": {
+                        "id": 117037,
+                        "name": "Luis Morán"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 731,
+                        "name": "Sporting Gijon",
+                        "logo": "https://media-2.api-sports.io/football/teams/731.png"
+                    },
+                    "player": {
+                        "id": 47201,
+                        "name": "De las Cuevas"
+                    },
+                    "assist": {
+                        "id": 101177,
+                        "name": "Carmelo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 531,
+                        "name": "Athletic Club",
+                        "logo": "https://media-1.api-sports.io/football/teams/531.png"
+                    },
+                    "player": {
+                        "id": 116823,
+                        "name": "Gurpegi"
+                    },
+                    "assist": {
+                        "id": 47284,
+                        "name": "Iturraspe"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 731,
+                        "name": "Sporting Gijon",
+                        "logo": "https://media-1.api-sports.io/football/teams/731.png",
+                        "colors": null
+                    },
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 117029,
+                                "name": "Juan Pablo",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116540,
+                                "name": "G. Arnolin",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46875,
+                                "name": "Canella",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44333,
+                                "name": "Botía",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116881,
+                                "name": "Rivera",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 113997,
+                                "name": "S. Eguren",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47201,
+                                "name": "De las Cuevas",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6807,
+                                "name": "Diego Castro",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15372,
+                                "name": "Lora",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116994,
+                                "name": "Nacho Novo",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58456,
+                                "name": "G. Sangoy",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 91701,
+                                "name": "David Barral",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117037,
+                                "name": "Luis Morán",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 101177,
+                                "name": "Carmelo",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47399,
+                                "name": "Pichu Cuéllar",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117010,
+                                "name": "M. Bilic",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117022,
+                                "name": "Iván Hernández",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117088,
+                                "name": "Sastre",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": null,
+                        "name": null
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 531,
+                        "name": "Athletic Club",
+                        "logo": "https://media-2.api-sports.io/football/teams/531.png",
+                        "colors": null
+                    },
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 47501,
+                                "name": "Iraizoz",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105427,
+                                "name": "Iraola",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70546,
+                                "name": "F. Amorebieta",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47288,
+                                "name": "San José",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104751,
+                                "name": "Aurtenetxe",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117000,
+                                "name": "Gabilondo",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117033,
+                                "name": "Orbaiz",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116823,
+                                "name": "Gurpegi",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 514,
+                                "name": "Javi Martínez",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105005,
+                                "name": "Igor Martínez",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 185,
+                                "name": "Llorente",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 47289,
+                                "name": "Susaeta",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117117,
+                                "name": "Ion Velez",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47284,
+                                "name": "Iturraspe",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47275,
+                                "name": "De Marcos",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 117086,
+                                "name": "Aitor Ocio",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46987,
+                                "name": "Raúl",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47272,
+                                "name": "Balenziaga",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": null,
+                        "name": null
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}
