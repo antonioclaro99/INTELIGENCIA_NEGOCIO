@@ -1,0 +1,24 @@
+git clone https://github.com/antonioclaro99/INTELIGENCIA_NEGOCIO.git
+
+cambiar por vuestra api en el config.json
+
+https://dashboard.api-football.com/register
+
+comprobamos el estado de la api, https://dashboard.api-football.com/profile?access (mirar si suspendido y límite)
+
+abrimos la carpeta del repositorio de github
+
+git pull
+
+py .\scripts\get_matches.py  python3 .\scripts\get_matches.py
+
+python3 .\scripts\parse_json_to_csv.py
+
+git add .
+
+git commit -m "subo nuevo lote de partidos"
+
+git push origin
+
+
+
