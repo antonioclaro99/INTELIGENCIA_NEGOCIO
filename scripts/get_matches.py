@@ -71,7 +71,7 @@ for api_key in api_keys:
  
     for i,id in enumerate(resultado):
         
-        if i > 80:
+        if i > 90:
             print("quota limit close, breaking for next api")
             break
         

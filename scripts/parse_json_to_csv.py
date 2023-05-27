@@ -44,7 +44,7 @@ for filename in os.listdir(directory):
                 df_fixture["home_goals"] = fixture_json["response"][0]["goals"]["home"]
                 df_fixture["away_goals"] = fixture_json["response"][0]["goals"]["away"]
                 
-                statistics_matrix = [list(df_fixture)[16:33],list(df_fixture)[33:]]
+                statistics_matrix = [list(df_fixture)[16:32],list(df_fixture)[32:]]
                             
                 for i,statistics in enumerate(statistics_matrix):
                     for j,statistic in enumerate(statistics):
