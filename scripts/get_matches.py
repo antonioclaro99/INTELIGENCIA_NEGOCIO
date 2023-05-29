@@ -42,9 +42,6 @@ def obtener_ids_desde_carpeta(carpeta):
 # Ejemplo de uso
 carpeta = "./data/matches/"
 
-#print(resultado)
-
-
 
 for api_key in api_keys:
     headers = {
@@ -61,17 +58,10 @@ for api_key in api_keys:
     resultado_2 = [id for id in todos if id not in obtenidos]
 
     resultado.extend(resultado_2)
-    
-    if not next_id_index:
-        next_id_index = config["next_id_index"]
-    else:
-        next_id_index = last_id_saved
-
-    sub_ids = config["fixtures_ids"][next_id_index:]
  
     for i,id in enumerate(resultado):
         
-        if i > 90:
+        if i > 1000:
             print("quota limit close, breaking for next api")
             break
         
@@ -80,22 +70,19 @@ for api_key in api_keys:
         res = requests.get(base_url.format(id=id), headers=headers)
 
         data = res.json()
+        # print(data)
         
-        print("Waiting 7 seconds, api key: ",api_key, " match_id: ",id)
-        time.sleep(7)
+        # print("Waiting 7 seconds, api key: ",api_key, " match_id: ",id)
+        print("Api key: ",api_key, " match_id: ",id)
+
+        time.sleep(0.3)
         
         if data["errors"]:
             print("Failed ",id, " error: ", data["errors"])
         else:
             #leer entorno de ejecución????
-            with open(f"./data/matches/{id}.json", 'w') as f:
-                json.dump(data, f,ensure_ascii=False)
-            
-        last_id_saved = next_id_index + i
-    
-
-    
-config["next_id_index"] = last_id_saved + 1
-
-with open('config.json', "w") as f:
-    json.dump(config, f)
+            try:
+                with open(f"./data/matches/{id}.json", 'w') as f:
+                    json.dump(data, f)
+            except Exception as e:
+                print("Failed ",id, " error: ", e)
