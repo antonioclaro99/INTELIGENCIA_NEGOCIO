@@ -59,8 +59,7 @@ for filename in os.listdir(directory):
         print("Failed match ", json_file, " Exception: ", e)
         errors_id.append(json_file.split(":")[0])
         # os.remove(json_file)
-
-            
+df_matches = df_matches.replace('HÃ©rcules','Hercules')
 
 df_matches.to_csv("./data/matches_csv/matches3.csv",sep=";")
 
