@@ -1,6 +1,8 @@
 import os
 import json
 import pandas as pd
+import re
+
 
 # assign directory
 directory = "./data/matches/"
@@ -60,6 +62,9 @@ for filename in os.listdir(directory):
         errors_id.append(json_file.split(":")[0])
         # os.remove(json_file)
 df_matches = df_matches.replace('HÃ©rcules','Hercules')
+
+df_matches = df_matches.applymap(lambda x: re.sub(r'media-\d+', 'media-1', x) if isinstance(x, str) else x)
+
 
 df_matches.to_csv("./data/matches_csv/matches3.csv",sep=";")
 
