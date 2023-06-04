@@ -33,7 +33,7 @@ for filename in os.listdir(directory):
                     df_fixture["league_name"] = fixture_json["response"][0]["league"]["name"]
                     df_fixture["league_logo"] = fixture_json["response"][0]["league"]["logo"]
                     df_fixture["country_name"] = fixture_json["response"][0]["league"]["country"]
-                    df_fixture["country_logo"] = fixture_json["response"][0]["league"]["season"]
+                    df_fixture["country_logo"] = fixture_json["response"][0]["league"]["flag"]
 
                     df_fixture["home_team_id"] = fixture_json["response"][0]["teams"]["home"]["id"]
                     df_fixture["home_team_name"] = fixture_json["response"][0]["teams"]["home"]["name"]

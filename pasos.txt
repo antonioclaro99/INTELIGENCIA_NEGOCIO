@@ -10,6 +10,10 @@ abrimos la carpeta del repositorio de github
 
 git pull
 
+pip install requests
+
+pip install pandas
+
 python .\scripts\get_matches.py
 
 python .\scripts\parse_json_to_csv.py
@@ -20,8 +24,5 @@ git commit -m "subo nuevo lote de partidos"
 
 git push origin
 
-pip install requests
-
-pip install pandas
 
 
